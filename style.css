@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.336);
+    color: white;
+    letter-spacing: 1px;
+}
+
+.card {
+    height: 100%;
+    width: auto;
+    border-radius: 15px;
+    background-color:#181E20;
+}
+
+label {
+    font-size: medium;
+}
+
+.form-control {
+    font-size: medium;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btn:hover {
+    background-color: #49B265;
+    text-shadow: 1px 1px 1px white;
+}
+
+.decore1 {
+    height: 230px;
+    width: 230px;
+    border-radius: 250px;
+    background-color: #FFBB1C;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    filter: blur(150px);
+    -webkit-filter: blur(150px);
+}
+
+.decore2 {
+    height: 250px;
+    width: 2500px;
+    border-radius: 250px;
+    background-color: #09A4DB;
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    filter: blur(100px);
+    -webkit-filter: blur(100px);
+}
+
+.decore3 {
+    height: 240px;
+    width: 240px;
+    border-radius: 250px;
+    background-color: #5C0A98;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    filter: blur(70px);
+    -webkit-filter: blur(70px);
+}
+
+.decore4 {
+    height: 120px;
+    width: 120px;
+    border-radius: 250px;
+    background-color: #F64C32;
+    position: absolute;
+    top: 50px;
+    left: 730px;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+}
+
+.decore5 {
+    height: 80px;
+    width: 80px;
+    border-radius: 250px;
+    background-color: #D7D7D6;
+    position: absolute;
+    top: 240px;
+    left: 600px;
+    filter: blur(30px);
+    -webkit-filter: blur(30px);
+}
+
+.decore6 {
+    height: 80px;
+    width: 80px;
+    border-radius: 250px;
+    background-color: #7EA310;
+    position: absolute;
+    top: 330px;
+    left: 250px;
+    filter: blur(35px);
+    -webkit-filter: blur(35px);
+}
+
